@@ -1,0 +1,13 @@
+[package]
+name = "hdbscan-capi"
+description = "C ABI for native HDBSCAN"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+hdbscan-core = { path = "../hdbscan-core" }

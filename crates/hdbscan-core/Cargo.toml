@@ -1,0 +1,10 @@
+[package]
+name = "hdbscan-core"
+description = "Independent Rust implementation of HDBSCAN"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[dev-dependencies]
+serde_json = { version = "1.0", features = ["float_roundtrip"] }

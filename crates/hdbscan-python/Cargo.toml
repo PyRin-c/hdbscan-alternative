@@ -1,0 +1,15 @@
+[package]
+name = "hdbscan-python"
+description = "PyO3 bindings for hdbscan-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[lib]
+name = "_native"
+crate-type = ["cdylib"]
+
+[dependencies]
+hdbscan-core = { path = "../hdbscan-core" }
+pyo3 = "0.30.1"

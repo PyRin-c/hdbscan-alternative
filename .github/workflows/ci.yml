@@ -1,0 +1,148 @@
+name: CI
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+  workflow_call:
+    inputs:
+      release_assets:
+        type: boolean
+        default: false
+      source_sha:
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-2025, ubuntu-24.04]
+    runs-on: ${{ matrix.os }}
+    env:
+      OPENBLAS_CORETYPE: Haswell
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      NPY_DISABLE_CPU_FEATURES: ${{ matrix.os == 'ubuntu-24.04' && 'X86_V4,AVX512_ICL,AVX512_SPR' || '' }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ inputs.source_sha || github.sha }}
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          version: '0.10.8'
+      - run: uv python install
+      - run: uv sync --locked --extra plot
+      - run: cargo fmt --all -- --check
+      - run: uv run --no-sync cargo clippy --workspace --all-targets --locked -- -D warnings
+      - run: uv run --no-sync cargo test --workspace --locked
+      - run: uv run --no-sync --with pygraphviz==2.0.4 pytest
+      - name: Compare public measurement data
+        shell: pwsh
+        run: |
+          $platform = if ($IsWindows) { 'windows' } else { 'linux' }
+          uv run --no-sync python -I reference/compare_public_datasets.py --module hdbscan_alternative `
+            --check "reference/fixtures/public-data-0.8.44-$platform-x86_64.json"
+      - run: uv run --no-sync python scripts/release_build.py cargo build --release --locked -p hdbscan-capi
+      - name: Verify the C ABI on Linux
+        if: runner.os == 'Linux'
+        shell: bash
+        run: |
+          cc -std=c11 -Wall -Wextra -Werror -I crates/hdbscan-capi/include \
+            crates/hdbscan-capi/tests/c_smoke.c -L target/release -Wl,-rpath,'$ORIGIN' \
+            -lhdbscan_capi -o target/release/c_smoke
+          target/release/c_smoke
+      - name: Package and verify the Windows C ABI
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: ./scripts/package-windows-cabi.ps1
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: inputs.release_assets && runner.os == 'Windows'
+        with:
+          name: release-cabi-win-x64
+          path: target/cabi-release/*.zip
+          if-no-files-found: error
+
+  python-wheel:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-2025, ubuntu-24.04]
+        python: ['3.10', '3.11', '3.12', '3.13.12', '3.14', '3.15']
+        include:
+          - os: windows-2025
+            compatibility: pypi
+          - os: ubuntu-24.04
+            compatibility: manylinux_2_34
+    runs-on: ${{ matrix.os }}
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ inputs.source_sha || github.sha }}
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          version: '0.13.9'
+      - run: uv python install ${{ matrix.python }}
+      - run: >-
+          uv run --no-project --python ${{ matrix.python }} --with maturin==1.16.0
+          python scripts/release_build.py maturin build --release --locked
+          --compatibility ${{ matrix.compatibility }} --interpreter python --out target/wheel-verification
+      - name: Install and verify the wheel
+        shell: pwsh
+        run: |
+          $wheels = @(Get-ChildItem -Path target/wheel-verification -Filter *.whl -File)
+          if ($wheels.Count -ne 1) {
+            throw "Expected one wheel in target/wheel-verification, found $($wheels.Count)."
+          }
+          uv run --no-project --isolated --python ${{ matrix.python }} "--with=$($wheels[0].FullName)" -- python -I scripts/check-wheel.py
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: inputs.release_assets
+        with:
+          name: release-wheel-${{ matrix.os }}-${{ matrix.python }}
+          path: target/wheel-verification/*.whl
+          if-no-files-found: error
+
+  reference:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-2025
+            fixture: windows-x86_64
+          - os: ubuntu-24.04
+            fixture: linux-x86_64
+    runs-on: ${{ matrix.os }}
+    env:
+      OPENBLAS_CORETYPE: Haswell
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      NPY_DISABLE_CPU_FEATURES: ${{ matrix.os == 'ubuntu-24.04' && 'X86_V4,AVX512_ICL,AVX512_SPR' || '' }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ inputs.source_sha || github.sha }}
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          version: '0.10.8'
+      - run: uv python install
+      - run: >-
+          uv run --project reference --locked python -I reference/generate_fixture.py
+          --check reference/fixtures/hdbscan-0.8.44-${{ matrix.fixture }}.json
+      - run: >-
+          uv run --project reference --locked python -I reference/generate_fixture.py
+          --prediction --check reference/fixtures/prediction-0.8.44-${{ matrix.fixture }}.json
+      - run: >-
+          uv run --project reference --locked python -I reference/generate_fixture.py
+          --validity --check reference/fixtures/validity-0.8.44-${{ matrix.fixture }}.json
+      - run: >-
+          uv run --project reference --locked python -I reference/generate_fixture.py
+          --major --check reference/fixtures/major-0.8.44-${{ matrix.fixture }}.json
+      - run: >-
+          uv run --project reference --locked python -I reference/compare_public_datasets.py
+          --module hdbscan --check reference/fixtures/public-data-0.8.44-${{ matrix.fixture }}.json

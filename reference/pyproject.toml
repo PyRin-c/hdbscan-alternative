@@ -1,0 +1,9 @@
+[project]
+name = "hdbscan-alternative-reference"
+version = "0.0.0"
+requires-python = "==3.13.12"
+dependencies = ["hdbscan==0.8.44", "numpy", "threadpoolctl"]
+
+[tool.uv]
+package = false
+no-build-package = ["hdbscan"]

@@ -1,0 +1,8 @@
+.venv/
+/target/
+/.notes/
+__pycache__/
+.pytest_cache/
+*.pyd
+*.so
+*.pdb

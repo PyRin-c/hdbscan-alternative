@@ -1,0 +1,7234 @@
+{
+  "load_iris": {
+    "input": {
+      "dtype": "float64",
+      "shape": [
+        150,
+        4
+      ],
+      "sha256": "67f16a34b2297915271d8967cf4408f8051498afff296fa8f9f36f4ff8988617"
+    },
+    "calls": {
+      "fit/euclidean/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "06ee9347b68f228e44c55ad81991421dca4e637fa820b8ed9d4f5f3a0a448dab"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "fc03ec465074e871855f58515b0308fe96d82ae66bf0bb80d1e1f1fa3f347d40"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "36cf4ff528b986c360d2ffd1635bc8f066f6479733548fa4081f15235ee87d2e"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              3
+            ],
+            "sha256": "811827667ba639dcc38e0c6100793c8a03551901e5cee1785af190b12820aa2e"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "378120560ae1ad4a6531e3e4dfb87e69088ed52ddcbe732a596e34d8ce330e12"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              154
+            ],
+            "sha256": "e3a1fee2b65710c85f7225a9fe62ec00a422d1292e42a86642f12ba983db0c45"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "427d5fef9542274bac0d24c7d15cfbf77fc6dbc1208f0753d14b6cb5e28d1542"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "cabd07bd7e7542b9b7b00e9309c90f029a74968ccfd0663ed849305ff21175fe"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/euclidean/best": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "34a6fc67125de2a37b2cad81161765866aff5a56dd2e55bf029cc87d2e2a2cde"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "b7f22123d68777cc7a906cf0e36624c7b61b5f8d5bed4bb55f214156d4497d83"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/euclidean/best": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "f25e0eaee6f0aac480ac5c34acda6ae6c22e07af70c95e52d2cc71514199a8b7"
+        },
+        "warnings": []
+      },
+      "robust/euclidean/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "655a3ef0465a9f30fddf25f4dde0c19a05c6f9069b83961800c1944165955273"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "d8d995fecd00d0e547efaa2a04931a268336910a4ad29f851864f9ffb0060e11"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/euclidean/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "2069b2bc49574f2dcd9ca47efa3d604341e28278be13f793cd78331d2cb96260"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "60469bc5074dfdafee3aae4a99159b94d0a018c0850299c988a25e38da975034"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "43a9fd60f5fd9b425249ef61b226165b9fe862272b784aea4c4e3baf5d8665d3"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              3
+            ],
+            "sha256": "f60de7cfe58256861405870d5f11c383a772a325ac0015c3043b57dd7d01b18b"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "526fe7df42a7667039a6f2cd7822a275a67c02e855d037beacd3583bef8ea203"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              154
+            ],
+            "sha256": "3a3aef219ead9f711d5c83efdd644ab7186541b7a4772ce43e3df7292678e5d8"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "7581f8e852c0935338c11240c4651219ddcad0a28d99014837ab1d3dac301228"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "bb7c3d82adf2c436a898bbd04e4852634e7428a03916d717c9c3fa3a9902aeb7"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/euclidean/generic": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "4cf8c4ce3777050cd1abaf85352f222f2a121aadf5f23762e199151807654b8d"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/euclidean/generic": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "8f3fdd3557420fa83f8f13d2d12470f090ff31f3547dc837d2004fa7b9d06293"
+        },
+        "warnings": []
+      },
+      "robust/euclidean/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "655a3ef0465a9f30fddf25f4dde0c19a05c6f9069b83961800c1944165955273"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "526fe7df42a7667039a6f2cd7822a275a67c02e855d037beacd3583bef8ea203"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/euclidean/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "2069b2bc49574f2dcd9ca47efa3d604341e28278be13f793cd78331d2cb96260"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "c3ea1dee5ce7e6c4e3fa061754d82e76c3d9f50ce7dcdd38ac5ad05c5154452d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "0c48976459b3a07a48bf5907717594a503dc3b32e49a43461a1cb004b2e088f5"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              3
+            ],
+            "sha256": "0f5a72089cb9ec0532f4beabf515aa6faebf07e17cdb9353f23928f8fa5ac538"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "3fd2387fae52024b04f8d7d7af0a8aa9014e35beb2532888ddf58d0886ad0718"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              154
+            ],
+            "sha256": "48378d5cb2095ceae6f03b26d5a2e4544d9914be33c21bad9249720787897424"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "208ab0d65d989ee3e4780e9e10af141bc23b616b7c537c27172172dc831a87ae"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "199622bca63a2d9bea4f89fd55921f90eb021eed2c1c972f4fcaf60addda16a6"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/euclidean/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "b7f22123d68777cc7a906cf0e36624c7b61b5f8d5bed4bb55f214156d4497d83"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/euclidean/prims_balltree": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "a2f1d3a83df9ef248ceb87c846cb6a2465cf8e00e8a5a0b1baa2d310412aef09"
+        },
+        "warnings": []
+      },
+      "robust/euclidean/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "655a3ef0465a9f30fddf25f4dde0c19a05c6f9069b83961800c1944165955273"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "b55c1e2f0d5cc56631b1aeb2f11fa67bfa94d6df36ecd97d84863a4c431fa9cc"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/euclidean/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "06ee9347b68f228e44c55ad81991421dca4e637fa820b8ed9d4f5f3a0a448dab"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "fc03ec465074e871855f58515b0308fe96d82ae66bf0bb80d1e1f1fa3f347d40"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "36cf4ff528b986c360d2ffd1635bc8f066f6479733548fa4081f15235ee87d2e"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              3
+            ],
+            "sha256": "811827667ba639dcc38e0c6100793c8a03551901e5cee1785af190b12820aa2e"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "378120560ae1ad4a6531e3e4dfb87e69088ed52ddcbe732a596e34d8ce330e12"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              154
+            ],
+            "sha256": "e3a1fee2b65710c85f7225a9fe62ec00a422d1292e42a86642f12ba983db0c45"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "427d5fef9542274bac0d24c7d15cfbf77fc6dbc1208f0753d14b6cb5e28d1542"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "cabd07bd7e7542b9b7b00e9309c90f029a74968ccfd0663ed849305ff21175fe"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/euclidean/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "34a6fc67125de2a37b2cad81161765866aff5a56dd2e55bf029cc87d2e2a2cde"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "b7f22123d68777cc7a906cf0e36624c7b61b5f8d5bed4bb55f214156d4497d83"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/euclidean/boruvka_balltree": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "f25e0eaee6f0aac480ac5c34acda6ae6c22e07af70c95e52d2cc71514199a8b7"
+        },
+        "warnings": []
+      },
+      "robust/euclidean/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "655a3ef0465a9f30fddf25f4dde0c19a05c6f9069b83961800c1944165955273"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "7125c70c1f4b0a8be1ab7e3a8d65463a822194e0afa91fc8b8e1ece5b2d5451b"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/manhattan/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "06326985c33a3d2515b05ee2e5f976819b24f27c02ece00b6c225ac1e878fdfa"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "0b45e828d552e8591182f4dffd32573a8966643e3c1e5cfa6b36f1de218a3e0b"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "e7fc0b4f91c6e9db6fd2d0e9c6247be5e661397286787552e3960d0c26caed2a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              3
+            ],
+            "sha256": "6b6b4e0b44c6c43329ea0dd3da90f91ed7e500aaa334f45db97df7b4f72f804d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "c8c22e776466aefe8a285d9788088f3ee16365bef3313470889b2af580d86b82"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              154
+            ],
+            "sha256": "b2bf40e4200abdbbf4a8b67ff8f89b596f8711a14f249b4e40dd9702e23b01e6"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "925b6cd3f9fdf0024b433917543e8d2a4f8d2ebbc29c2e7262b3f7316fd391d6"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "468b7bcde8cac77f33c280b8e93054f41109b97a0a87eb17c459dc7fbfe2762f"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/manhattan/best": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "be8b9357c7cf7947dac86aa9f0d1c04fdd81aa132a3dbae6674fc679dd7953e6"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/manhattan/best": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "fdadf81956beafd7b39a6e0b7efcc21fbad059b0d3710db34d7ec143057aee84"
+        },
+        "warnings": []
+      },
+      "robust/manhattan/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "536bae5003d23954aba9d1ab3b62a79f862e3439a5eff72f55a6f669e82215ad"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "3712addb4ee847b638ce0848287b22bd9693a81c667ba546469bd4b5c83b59eb"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/manhattan/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "06326985c33a3d2515b05ee2e5f976819b24f27c02ece00b6c225ac1e878fdfa"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "0b45e828d552e8591182f4dffd32573a8966643e3c1e5cfa6b36f1de218a3e0b"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "e7fc0b4f91c6e9db6fd2d0e9c6247be5e661397286787552e3960d0c26caed2a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              3
+            ],
+            "sha256": "142c14c245e034a5c32096d180786d867981b12d5149c5688dc86de175ef28be"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "6d9957c4d28b5f672e5c308da158040b545f922a1cbf811bdb26b3eeb07d87e8"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              154
+            ],
+            "sha256": "d2124166f2c859514380ec03bbe082c6383377afc5388e7459caea1d53af601a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "925b6cd3f9fdf0024b433917543e8d2a4f8d2ebbc29c2e7262b3f7316fd391d6"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "468b7bcde8cac77f33c280b8e93054f41109b97a0a87eb17c459dc7fbfe2762f"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/manhattan/generic": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "be8b9357c7cf7947dac86aa9f0d1c04fdd81aa132a3dbae6674fc679dd7953e6"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/manhattan/generic": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "fdadf81956beafd7b39a6e0b7efcc21fbad059b0d3710db34d7ec143057aee84"
+        },
+        "warnings": []
+      },
+      "robust/manhattan/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "2069b2bc49574f2dcd9ca47efa3d604341e28278be13f793cd78331d2cb96260"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "6d9957c4d28b5f672e5c308da158040b545f922a1cbf811bdb26b3eeb07d87e8"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/manhattan/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "06326985c33a3d2515b05ee2e5f976819b24f27c02ece00b6c225ac1e878fdfa"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "0b45e828d552e8591182f4dffd32573a8966643e3c1e5cfa6b36f1de218a3e0b"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "e7fc0b4f91c6e9db6fd2d0e9c6247be5e661397286787552e3960d0c26caed2a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              3
+            ],
+            "sha256": "dc661586a8c599cf7e84cea0925aed8bebefdbfd6fd0289cb0b88bfd8daa196f"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "6d9957c4d28b5f672e5c308da158040b545f922a1cbf811bdb26b3eeb07d87e8"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              154
+            ],
+            "sha256": "d2124166f2c859514380ec03bbe082c6383377afc5388e7459caea1d53af601a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "925b6cd3f9fdf0024b433917543e8d2a4f8d2ebbc29c2e7262b3f7316fd391d6"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "468b7bcde8cac77f33c280b8e93054f41109b97a0a87eb17c459dc7fbfe2762f"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/manhattan/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "be8b9357c7cf7947dac86aa9f0d1c04fdd81aa132a3dbae6674fc679dd7953e6"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/manhattan/prims_balltree": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "fdadf81956beafd7b39a6e0b7efcc21fbad059b0d3710db34d7ec143057aee84"
+        },
+        "warnings": []
+      },
+      "robust/manhattan/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "c71f469bb1ae875b0317a6bcb84d421ce0e3a2d660f349cbea83dc470a8de52b"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "1040ceda65df69e5dfb4057914afad20c3743fba1e034383750304fd2cb904b2"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/manhattan/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "06326985c33a3d2515b05ee2e5f976819b24f27c02ece00b6c225ac1e878fdfa"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "0b45e828d552e8591182f4dffd32573a8966643e3c1e5cfa6b36f1de218a3e0b"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "e7fc0b4f91c6e9db6fd2d0e9c6247be5e661397286787552e3960d0c26caed2a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              3
+            ],
+            "sha256": "6b6b4e0b44c6c43329ea0dd3da90f91ed7e500aaa334f45db97df7b4f72f804d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "c8c22e776466aefe8a285d9788088f3ee16365bef3313470889b2af580d86b82"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              154
+            ],
+            "sha256": "b2bf40e4200abdbbf4a8b67ff8f89b596f8711a14f249b4e40dd9702e23b01e6"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "925b6cd3f9fdf0024b433917543e8d2a4f8d2ebbc29c2e7262b3f7316fd391d6"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "468b7bcde8cac77f33c280b8e93054f41109b97a0a87eb17c459dc7fbfe2762f"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/manhattan/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "be8b9357c7cf7947dac86aa9f0d1c04fdd81aa132a3dbae6674fc679dd7953e6"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/manhattan/boruvka_balltree": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "fdadf81956beafd7b39a6e0b7efcc21fbad059b0d3710db34d7ec143057aee84"
+        },
+        "warnings": []
+      },
+      "robust/manhattan/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "ca7ab2d54be2d25484ff6908d8772f2b675d7a95777256b649f0255856bd35fe"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "65ef06d57a284395dc510dcfa9c5c931718ef8afb9d0199042fe3a94bb6cfb28"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/chebyshev/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "182e22ece97d1345a26266c9a246725e243eb5e11a2d048da6430744138fe0b3"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "51cc1a9a6be08edb73eacdec1be7915ba31df89a7feed706238e3f6b838f2fb9"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "50475171b46149f7d0ea887613792aa2b44c5d27a5bc01e815d05298392d01fc"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              3
+            ],
+            "sha256": "3373d3d4f80e5ffa3b9e076666d57dc92d7349ad8de58e5ce79be9387413ceae"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "f92c6dcc8ec89f05af0d56e20dde4ed291d2cf12315a536aad50d1058477f7c4"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              154
+            ],
+            "sha256": "5e39def0f4b6b759e56dcbc7ce1794749169f3d07dd0efaccf9d57f1000254fa"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "c4ecd230544ecf420a618c17358db16d24df8183ace65956c34b098eb800589f"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "304d7241fbe2348907ae83a7d92806ec119da9582f54bcf7ade810cce6f036eb"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/chebyshev/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "655a3ef0465a9f30fddf25f4dde0c19a05c6f9069b83961800c1944165955273"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "724adf6bd7b0229f0be81b5e3f4fecd8b822f03b039d8b2a201cced8fb75de6e"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/chebyshev/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "2886aebb462b5426d1f4d7b5509d3c2a8b36d3dc708cab5b9b5f6fba1466ff2b"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "51cc1a9a6be08edb73eacdec1be7915ba31df89a7feed706238e3f6b838f2fb9"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "87e1a0e2ced532c35dc52206e18797668b22abe8fab501cf7b145f3244a571e7"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              3
+            ],
+            "sha256": "1aef6d702f854f31d03211038b89c0ef4147a70e84f7a27e37070f5a241fc6ef"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "8d1d3a8b39345b81d9c60e906b6a63f55afbe929ccc038d00642828f15e282d4"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              154
+            ],
+            "sha256": "6011891ddf1b96696d5c20e6d90a50c3982e0bc8a19a5d1af2db938079a137cc"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "5d6c79ac751079a8020e85d2755644b3c694a64c542f8fbe7e4e4dea3623e075"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "304d7241fbe2348907ae83a7d92806ec119da9582f54bcf7ade810cce6f036eb"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/chebyshev/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "655a3ef0465a9f30fddf25f4dde0c19a05c6f9069b83961800c1944165955273"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "8d1d3a8b39345b81d9c60e906b6a63f55afbe929ccc038d00642828f15e282d4"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/chebyshev/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "2886aebb462b5426d1f4d7b5509d3c2a8b36d3dc708cab5b9b5f6fba1466ff2b"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "51cc1a9a6be08edb73eacdec1be7915ba31df89a7feed706238e3f6b838f2fb9"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "87e1a0e2ced532c35dc52206e18797668b22abe8fab501cf7b145f3244a571e7"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              3
+            ],
+            "sha256": "114d4a88cde0fec0ff5b34875aa5f507cfc4852b0c8893b37df5893edd649e25"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "8d1d3a8b39345b81d9c60e906b6a63f55afbe929ccc038d00642828f15e282d4"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              154
+            ],
+            "sha256": "6011891ddf1b96696d5c20e6d90a50c3982e0bc8a19a5d1af2db938079a137cc"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "5d6c79ac751079a8020e85d2755644b3c694a64c542f8fbe7e4e4dea3623e075"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "304d7241fbe2348907ae83a7d92806ec119da9582f54bcf7ade810cce6f036eb"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/chebyshev/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "655a3ef0465a9f30fddf25f4dde0c19a05c6f9069b83961800c1944165955273"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "acccc44e0dbae3c69e8db1753ca28e3e48406d86238bb228d304dcb68e2f9fc4"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/chebyshev/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "182e22ece97d1345a26266c9a246725e243eb5e11a2d048da6430744138fe0b3"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "51cc1a9a6be08edb73eacdec1be7915ba31df89a7feed706238e3f6b838f2fb9"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "50475171b46149f7d0ea887613792aa2b44c5d27a5bc01e815d05298392d01fc"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              3
+            ],
+            "sha256": "07afc29827bfd76a8036fa9e144a158416726d2672be675ac3e26c83826613ae"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "f92c6dcc8ec89f05af0d56e20dde4ed291d2cf12315a536aad50d1058477f7c4"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              154
+            ],
+            "sha256": "5e39def0f4b6b759e56dcbc7ce1794749169f3d07dd0efaccf9d57f1000254fa"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "c4ecd230544ecf420a618c17358db16d24df8183ace65956c34b098eb800589f"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "304d7241fbe2348907ae83a7d92806ec119da9582f54bcf7ade810cce6f036eb"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/chebyshev/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "655a3ef0465a9f30fddf25f4dde0c19a05c6f9069b83961800c1944165955273"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "b456218ebd326a6929f95685c3501ae7271a3368ac012cb8de3950f9bfe6f9ad"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/minkowski/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "06ee9347b68f228e44c55ad81991421dca4e637fa820b8ed9d4f5f3a0a448dab"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "fc03ec465074e871855f58515b0308fe96d82ae66bf0bb80d1e1f1fa3f347d40"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "36cf4ff528b986c360d2ffd1635bc8f066f6479733548fa4081f15235ee87d2e"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              3
+            ],
+            "sha256": "811827667ba639dcc38e0c6100793c8a03551901e5cee1785af190b12820aa2e"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "378120560ae1ad4a6531e3e4dfb87e69088ed52ddcbe732a596e34d8ce330e12"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              154
+            ],
+            "sha256": "e3a1fee2b65710c85f7225a9fe62ec00a422d1292e42a86642f12ba983db0c45"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "427d5fef9542274bac0d24c7d15cfbf77fc6dbc1208f0753d14b6cb5e28d1542"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "cabd07bd7e7542b9b7b00e9309c90f029a74968ccfd0663ed849305ff21175fe"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/minkowski/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "655a3ef0465a9f30fddf25f4dde0c19a05c6f9069b83961800c1944165955273"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "5f1317625d5d53617587b80d1e173df45ed41f0d211495550b989d72769451c9"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/minkowski/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "2069b2bc49574f2dcd9ca47efa3d604341e28278be13f793cd78331d2cb96260"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "0929b3a1daa5e4bf9a7616e9d68815de2fc54e9db06468c943dbbf3f7e4f9069"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "3829b896fb3084bb27cc47123bcf8beee376ddd7ac6cc4a01d4033f81389c70c"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              3
+            ],
+            "sha256": "146f4d6ffe947c92330c121e3914c0ee5b7ca9e41626c2adad28cbce81998c4e"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "c1d21e370f3326b103da4b3bb268ab45de20786bc5c8457b0a0ad73285447703"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              156
+            ],
+            "sha256": "2a66692e7280cedb08151a966377f51f5a33c32603b9518c4a4d49b43cba278b"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "d5aeda217aa87a063970467826249d88f068e677af95c555aaa3055fdc8360d9"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "132ab58fd14c290e208de200ec20fc6c186fc22a52c1c3768a63fdaa028e306e"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/minkowski/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "655a3ef0465a9f30fddf25f4dde0c19a05c6f9069b83961800c1944165955273"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "c1d21e370f3326b103da4b3bb268ab45de20786bc5c8457b0a0ad73285447703"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/minkowski/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "2069b2bc49574f2dcd9ca47efa3d604341e28278be13f793cd78331d2cb96260"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "c3ea1dee5ce7e6c4e3fa061754d82e76c3d9f50ce7dcdd38ac5ad05c5154452d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "0c48976459b3a07a48bf5907717594a503dc3b32e49a43461a1cb004b2e088f5"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              3
+            ],
+            "sha256": "0f5a72089cb9ec0532f4beabf515aa6faebf07e17cdb9353f23928f8fa5ac538"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "3fd2387fae52024b04f8d7d7af0a8aa9014e35beb2532888ddf58d0886ad0718"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              154
+            ],
+            "sha256": "48378d5cb2095ceae6f03b26d5a2e4544d9914be33c21bad9249720787897424"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "208ab0d65d989ee3e4780e9e10af141bc23b616b7c537c27172172dc831a87ae"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "199622bca63a2d9bea4f89fd55921f90eb021eed2c1c972f4fcaf60addda16a6"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/minkowski/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "655a3ef0465a9f30fddf25f4dde0c19a05c6f9069b83961800c1944165955273"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "11a74a67367ca9532c68f51b0fcb5f2698cb673a5984ce11b36848e5d24d85c9"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/minkowski/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "06ee9347b68f228e44c55ad81991421dca4e637fa820b8ed9d4f5f3a0a448dab"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "fc03ec465074e871855f58515b0308fe96d82ae66bf0bb80d1e1f1fa3f347d40"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "36cf4ff528b986c360d2ffd1635bc8f066f6479733548fa4081f15235ee87d2e"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              3
+            ],
+            "sha256": "811827667ba639dcc38e0c6100793c8a03551901e5cee1785af190b12820aa2e"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "378120560ae1ad4a6531e3e4dfb87e69088ed52ddcbe732a596e34d8ce330e12"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              154
+            ],
+            "sha256": "e3a1fee2b65710c85f7225a9fe62ec00a422d1292e42a86642f12ba983db0c45"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              150
+            ],
+            "sha256": "427d5fef9542274bac0d24c7d15cfbf77fc6dbc1208f0753d14b6cb5e28d1542"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "cabd07bd7e7542b9b7b00e9309c90f029a74968ccfd0663ed849305ff21175fe"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/minkowski/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              150
+            ],
+            "sha256": "655a3ef0465a9f30fddf25f4dde0c19a05c6f9069b83961800c1944165955273"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              149,
+              4
+            ],
+            "sha256": "3b5a54ae79490724c0b1af3627fce10acf877fd73b0c593316be59eeb33ec36f"
+          }
+        ],
+        "warnings": []
+      }
+    }
+  },
+  "load_wine": {
+    "input": {
+      "dtype": "float64",
+      "shape": [
+        178,
+        13
+      ],
+      "sha256": "d7f713b79c8aa9e6e5a8452681aaf68ab2fcc7fd28ea9b6e18294d670697ada8"
+    },
+    "calls": {
+      "fit/euclidean/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "ba345cdd6e55daff2f1d405c4f8ca28a279f8567a9c6484304e72b47f3481e45"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "89a28225fd2dc65b07639df6a1026bfc7f40e8a154100d228c39dac99d824e7a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "79ec93302e99bd4ea4ff7240e852868d74cf6cfd628f34957c0b0b2645639988"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              3
+            ],
+            "sha256": "ed2b2532b24cabc4ecf852d47bc1120387ca29ee013c21bdbd1fe4ff9cb8534a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "8a725d04a87d763b58376d0f555c4df2e6399df4a3f705582ad667c899702a53"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              180
+            ],
+            "sha256": "2709885981fe208e6dae81e5bde41194c011d8f7d5a4910143a9c8504ae285bf"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "f818271aa1e89a2839839537693e535808598e1965c4626fd074ef568c656931"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "4d357c2f54295d680f45308e473a23ea53c215c6533d64341f9731a5d173aa1a"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/euclidean/best": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "1b5b73cbcb5b4b3b2ba1089c431d239604fb31a466ea058ef5d430a7de2bd95b"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "9329c9880f9582714361029892502fa219254c4e023dfed1879747058f81ffac"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/euclidean/best": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "d3bc62aed400146bad72b9b8d3dd578aa5bec56fdc405db17d734b88f571fe04"
+        },
+        "warnings": []
+      },
+      "robust/euclidean/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "a833f5b76179fc4eb39daa977934c0872b3576fdac62648fd3b920da417b1f51"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "e25fbec7eafed2ab446fadb7125c7b97cfc5188fdf2637e07e9f2b8d7a7a77a9"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/euclidean/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "2eab6a7398e150381703939185d87f710da638147024343c18eaf04b7f0880af"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "13d898b1f25be2cda4951f97293313f725753766cc7d0c6c7c098ac696d3824b"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "a9651c675773f5ef32f6fba9ffcce146279a21eb40dd4bc60a144fa59184cc8c"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              3
+            ],
+            "sha256": "9b9b92e98c502b000fe53bae620b0e759878cb9828ad3f57e3421a9db0c6973a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "85ac8126d3f2cffc8f48d220263fac5de79a2f45608a23fd0f8bd9da5b15e78a"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              180
+            ],
+            "sha256": "36fcb9daa1f6579602d35bba383a45aed8bcd2550fc1e150bb24923d563a025a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "51f288c74eb204d58ba274c4b09862f2354f8403861f0a2d81b09f56d05d9593"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "47e95cfa2ee3b73aff9600ebfbee100b1c9593dc4943fb7c53a487bbca5ab919"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/euclidean/generic": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "26c0885e7178c670f117baa1406e2e35071d7884ecdc48e2d8c664ba652a728b"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "feb941ee5edc2a225b8837d5b8e8e9f94f5c8688f39b5e65b6752dc11065bcfd"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/euclidean/generic": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "f50e6c31c8af18ad832d30fe08921b627b374013fd0614ff9b10337cfd8d8896"
+        },
+        "warnings": []
+      },
+      "robust/euclidean/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "7c0a3a1eb2142ae584da859ce77f04f5ba2390c59eefd8c4eed277951901a910"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "85ac8126d3f2cffc8f48d220263fac5de79a2f45608a23fd0f8bd9da5b15e78a"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/euclidean/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "2eab6a7398e150381703939185d87f710da638147024343c18eaf04b7f0880af"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "89a28225fd2dc65b07639df6a1026bfc7f40e8a154100d228c39dac99d824e7a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "76f175d9062ba415d7e72aa97121098e927283e5fde033d456071ea306f7b31e"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              3
+            ],
+            "sha256": "abb869aaf2c2cbfc56fcf18b69447850f13ea5d668e743369f8e8c32e8d9f4b1"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "f8ecb0f61e9d9ab81f0f1ad9d1fe329a8c2f8aae3e3bb88d0492c70ff146e214"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              180
+            ],
+            "sha256": "4c8a9f658953920155ac6bf95500b6a94213b2f654829ec4954dee3016eac754"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "f818271aa1e89a2839839537693e535808598e1965c4626fd074ef568c656931"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "4d357c2f54295d680f45308e473a23ea53c215c6533d64341f9731a5d173aa1a"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/euclidean/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "26c0885e7178c670f117baa1406e2e35071d7884ecdc48e2d8c664ba652a728b"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "9329c9880f9582714361029892502fa219254c4e023dfed1879747058f81ffac"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/euclidean/prims_balltree": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "d3bc62aed400146bad72b9b8d3dd578aa5bec56fdc405db17d734b88f571fe04"
+        },
+        "warnings": []
+      },
+      "robust/euclidean/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "3329acd9f6c0d3379e3d5ea89ab323933650269db71d57ac3f07d030dea2564c"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "27f9ef97faadf1a9d74eae8891ae835d47513f3de0215357fefc43cf0d5ad2a1"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/euclidean/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "ba345cdd6e55daff2f1d405c4f8ca28a279f8567a9c6484304e72b47f3481e45"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "89a28225fd2dc65b07639df6a1026bfc7f40e8a154100d228c39dac99d824e7a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "79ec93302e99bd4ea4ff7240e852868d74cf6cfd628f34957c0b0b2645639988"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              3
+            ],
+            "sha256": "ed2b2532b24cabc4ecf852d47bc1120387ca29ee013c21bdbd1fe4ff9cb8534a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "8a725d04a87d763b58376d0f555c4df2e6399df4a3f705582ad667c899702a53"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              180
+            ],
+            "sha256": "2709885981fe208e6dae81e5bde41194c011d8f7d5a4910143a9c8504ae285bf"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "f818271aa1e89a2839839537693e535808598e1965c4626fd074ef568c656931"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "4d357c2f54295d680f45308e473a23ea53c215c6533d64341f9731a5d173aa1a"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/euclidean/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "1b5b73cbcb5b4b3b2ba1089c431d239604fb31a466ea058ef5d430a7de2bd95b"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "9329c9880f9582714361029892502fa219254c4e023dfed1879747058f81ffac"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/euclidean/boruvka_balltree": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "d3bc62aed400146bad72b9b8d3dd578aa5bec56fdc405db17d734b88f571fe04"
+        },
+        "warnings": []
+      },
+      "robust/euclidean/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "a833f5b76179fc4eb39daa977934c0872b3576fdac62648fd3b920da417b1f51"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "93b2f656f6a23490d66402dd40ecb4fc721f5fcc28a9418289b735497f0bb050"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/manhattan/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "258addf0b61f50f424155192765559a31b77d741528c1cdd5301238c9e709cc7"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "d7082b908e67dfa666cb72570bb0687bfb4f759635eb3bd50588d7c28abbf159"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "08f169ad11e057fa059a10ccfd8a91c90a4aec4976a76a212dade31489a65af3"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              3
+            ],
+            "sha256": "c012281a3c7980d6c043ba67431e79ccb5b17aa773a8f82222c4f550a793af9a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "145c16453230dc582b1f75cef20fc2b8df9ff14dc41e811b13bb8c437c831c22"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              180
+            ],
+            "sha256": "ae05a2e807438d9159cc528d6ca72656cc19079c6ac695d1e9d2b6eae28ee665"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "0d7294202ee2e4725944aa72d29d90104f68661882791c7ed4509d6186ab1086"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "eb90e86b367f4d7c32ab6220eb801fb93847aa16983e9c18fb11a9b00c88898a"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/manhattan/best": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "f982c16a554d3745341075211c5598bcc7bb7cc546356ca4d727fda9fecea5e2"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "f80b9a20bc6ced6375e21be1b80e7b60f5267896757f4116bb3e2183e0d43b94"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/manhattan/best": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "7680017c40c30d699b7718cd64c56664d7bab84e1cbfaa9f123c26159f7c4ce6"
+        },
+        "warnings": []
+      },
+      "robust/manhattan/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "28769a5b99c3c671a47c6deff30b03f5b3698b1e120c5445c0b76995cb59f07c"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "ee7541f0812d128647eac45f2d779565162b0bd484c18acb1f26a6bbc9b20ea9"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/manhattan/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "0c66703f1c89023c0c4d61fe332b624ba4268219400384d9c8f125b09c5951dd"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "e7ddccc53929d583416997e5b8c5bacf937adb816b737e2cd6c917d95c40ba90"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "485b0f854ec573cab947e2a0662c2a44a1338aa0aeb5fe9a49d071735dc0171b"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              3
+            ],
+            "sha256": "d1b9598da28ebc23761e8e6e6523611df1526c179b27c7dafd11ab5842be24d6"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "019152fc41370619acfb30b5e4609182cd60ea7fc01a26e3149045ad9dd11ac0"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              180
+            ],
+            "sha256": "4f06f34ecbbf0197a01e46889d7db1b192a5187394f6eb8f3ca787c412530388"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "c2171dd1ad3e6f6461ac58b81168af8cc498c43ff34b46ae3762ffccadbe2694"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "daa097031b1e5567bd72d8d3c0d52b79cde41f9ad0c40a1e393edce3f8862d3b"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/manhattan/generic": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "f982c16a554d3745341075211c5598bcc7bb7cc546356ca4d727fda9fecea5e2"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "f80b9a20bc6ced6375e21be1b80e7b60f5267896757f4116bb3e2183e0d43b94"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/manhattan/generic": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "7680017c40c30d699b7718cd64c56664d7bab84e1cbfaa9f123c26159f7c4ce6"
+        },
+        "warnings": []
+      },
+      "robust/manhattan/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "28769a5b99c3c671a47c6deff30b03f5b3698b1e120c5445c0b76995cb59f07c"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "019152fc41370619acfb30b5e4609182cd60ea7fc01a26e3149045ad9dd11ac0"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/manhattan/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "0c66703f1c89023c0c4d61fe332b624ba4268219400384d9c8f125b09c5951dd"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "e7ddccc53929d583416997e5b8c5bacf937adb816b737e2cd6c917d95c40ba90"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "485b0f854ec573cab947e2a0662c2a44a1338aa0aeb5fe9a49d071735dc0171b"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              3
+            ],
+            "sha256": "abd77e5531185286d080138aa2ce60713da89a9f2f9de56abe4cfb4d1e78d037"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "019152fc41370619acfb30b5e4609182cd60ea7fc01a26e3149045ad9dd11ac0"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              180
+            ],
+            "sha256": "4f06f34ecbbf0197a01e46889d7db1b192a5187394f6eb8f3ca787c412530388"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "c2171dd1ad3e6f6461ac58b81168af8cc498c43ff34b46ae3762ffccadbe2694"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "daa097031b1e5567bd72d8d3c0d52b79cde41f9ad0c40a1e393edce3f8862d3b"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/manhattan/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "f982c16a554d3745341075211c5598bcc7bb7cc546356ca4d727fda9fecea5e2"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "f80b9a20bc6ced6375e21be1b80e7b60f5267896757f4116bb3e2183e0d43b94"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/manhattan/prims_balltree": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "7680017c40c30d699b7718cd64c56664d7bab84e1cbfaa9f123c26159f7c4ce6"
+        },
+        "warnings": []
+      },
+      "robust/manhattan/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "28769a5b99c3c671a47c6deff30b03f5b3698b1e120c5445c0b76995cb59f07c"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "fd983ba3edc8e6e971b6821e6e8359203574fa00b34c601e106ba1c2190a5f4d"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/manhattan/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "258addf0b61f50f424155192765559a31b77d741528c1cdd5301238c9e709cc7"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "d7082b908e67dfa666cb72570bb0687bfb4f759635eb3bd50588d7c28abbf159"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "08f169ad11e057fa059a10ccfd8a91c90a4aec4976a76a212dade31489a65af3"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              3
+            ],
+            "sha256": "c012281a3c7980d6c043ba67431e79ccb5b17aa773a8f82222c4f550a793af9a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "145c16453230dc582b1f75cef20fc2b8df9ff14dc41e811b13bb8c437c831c22"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              180
+            ],
+            "sha256": "ae05a2e807438d9159cc528d6ca72656cc19079c6ac695d1e9d2b6eae28ee665"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "0d7294202ee2e4725944aa72d29d90104f68661882791c7ed4509d6186ab1086"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "eb90e86b367f4d7c32ab6220eb801fb93847aa16983e9c18fb11a9b00c88898a"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/manhattan/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "f982c16a554d3745341075211c5598bcc7bb7cc546356ca4d727fda9fecea5e2"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "f80b9a20bc6ced6375e21be1b80e7b60f5267896757f4116bb3e2183e0d43b94"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/manhattan/boruvka_balltree": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "7680017c40c30d699b7718cd64c56664d7bab84e1cbfaa9f123c26159f7c4ce6"
+        },
+        "warnings": []
+      },
+      "robust/manhattan/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "28769a5b99c3c671a47c6deff30b03f5b3698b1e120c5445c0b76995cb59f07c"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "d627ef0fefdcc134697382b27621a52d6c7e71a96dce4c8da55d79e9334cf6ba"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/chebyshev/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "abfc0d2b2d2dea3c3bc656c4453bbcadd76040e6de73f56c83662cf7727ee9e3"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "451473957bf6c6bfcded37beed7f15c82be83552502f9a27d446d4eda9bf8980"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "501f7971eb87d5feb769a037e14e25ad89b0e7b8f49ab6146246e79087cff3ae"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              3
+            ],
+            "sha256": "557c5f0e10ea44369e4a2be26e583396b0a6609d72372b704239d9c9e9ce0e07"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "b632d4d0b64227bdc5ff37162fd71847c87e511ab91a124023d95ba16ee389ea"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              180
+            ],
+            "sha256": "19a26c591f043678465e81528b634f51418191e46672fb1bda55894691cefb27"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "247d5be79396e62aa76b1e471a7b35aa0d6f625b63bdb560a50a784f97c77e24"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "fc853629e41aeb7fef39243e110e8a7cc47a71ad081ae412d362b7b96db55621"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/chebyshev/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "4f4b9b31eafa635bfaded746fb4a7e370c22eb5421d816820009d122595589c2"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "504c0c2ac5558d05d3e61006f6870ffe1d3e323ec99b03483c9bb91537942d72"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/chebyshev/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "abfc0d2b2d2dea3c3bc656c4453bbcadd76040e6de73f56c83662cf7727ee9e3"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "451473957bf6c6bfcded37beed7f15c82be83552502f9a27d446d4eda9bf8980"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "501f7971eb87d5feb769a037e14e25ad89b0e7b8f49ab6146246e79087cff3ae"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              3
+            ],
+            "sha256": "2d645af9b7e0da7a6a330037e9140be9b1f06b8d84c5e3d575db729a81963cd3"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "cb062804caadc319648fdbb2fcdc516f1b24fee68856c444213f8c7f96312e21"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              180
+            ],
+            "sha256": "5635b0fe9baa7478cbbf55e31a79d51eed72c3ab9a7e5baa92fc21a472bf2573"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "247d5be79396e62aa76b1e471a7b35aa0d6f625b63bdb560a50a784f97c77e24"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "fc853629e41aeb7fef39243e110e8a7cc47a71ad081ae412d362b7b96db55621"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/chebyshev/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "86e57bccb98707d98e33b15b8bbc0992b1d5d6d823d47032cbe463685d01498f"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "cb062804caadc319648fdbb2fcdc516f1b24fee68856c444213f8c7f96312e21"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/chebyshev/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "abfc0d2b2d2dea3c3bc656c4453bbcadd76040e6de73f56c83662cf7727ee9e3"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "451473957bf6c6bfcded37beed7f15c82be83552502f9a27d446d4eda9bf8980"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "501f7971eb87d5feb769a037e14e25ad89b0e7b8f49ab6146246e79087cff3ae"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              3
+            ],
+            "sha256": "1c1383bd4b7de909cd829e6693a8c2a456d516c05875817bb30b12f6f62503ad"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "cb062804caadc319648fdbb2fcdc516f1b24fee68856c444213f8c7f96312e21"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              180
+            ],
+            "sha256": "5635b0fe9baa7478cbbf55e31a79d51eed72c3ab9a7e5baa92fc21a472bf2573"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "247d5be79396e62aa76b1e471a7b35aa0d6f625b63bdb560a50a784f97c77e24"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "fc853629e41aeb7fef39243e110e8a7cc47a71ad081ae412d362b7b96db55621"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/chebyshev/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "18fa8aba0096f5f3e844933df8fa59cc972df6d69b650d31410ab7e9cd5c38e7"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "588e55874792bfde6fbc16bb6d114c066b43de047c84b178cce581e7513f569e"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/chebyshev/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "abfc0d2b2d2dea3c3bc656c4453bbcadd76040e6de73f56c83662cf7727ee9e3"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "451473957bf6c6bfcded37beed7f15c82be83552502f9a27d446d4eda9bf8980"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "501f7971eb87d5feb769a037e14e25ad89b0e7b8f49ab6146246e79087cff3ae"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              3
+            ],
+            "sha256": "37731fda00c3fcdd22c0fca7bcf9059edc7427b1c11397909373b4cb0861f7a7"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "26d3fa56cbcbf540c60b6426854f9fb0008496e18292ed78f2e387f4c3d017e0"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              180
+            ],
+            "sha256": "e41b41c91f661a4cc86da3fd63ae20075b28374e99c64ec7fda7babdc9d26780"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "247d5be79396e62aa76b1e471a7b35aa0d6f625b63bdb560a50a784f97c77e24"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "fc853629e41aeb7fef39243e110e8a7cc47a71ad081ae412d362b7b96db55621"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/chebyshev/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "4f4b9b31eafa635bfaded746fb4a7e370c22eb5421d816820009d122595589c2"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "e1c97a9f35e20b924bfdec856b471c8f8555c11695e2713db924564b83516c66"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/minkowski/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "ba345cdd6e55daff2f1d405c4f8ca28a279f8567a9c6484304e72b47f3481e45"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "89a28225fd2dc65b07639df6a1026bfc7f40e8a154100d228c39dac99d824e7a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "79ec93302e99bd4ea4ff7240e852868d74cf6cfd628f34957c0b0b2645639988"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              3
+            ],
+            "sha256": "ed2b2532b24cabc4ecf852d47bc1120387ca29ee013c21bdbd1fe4ff9cb8534a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "8a725d04a87d763b58376d0f555c4df2e6399df4a3f705582ad667c899702a53"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              180
+            ],
+            "sha256": "2709885981fe208e6dae81e5bde41194c011d8f7d5a4910143a9c8504ae285bf"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "f818271aa1e89a2839839537693e535808598e1965c4626fd074ef568c656931"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "4d357c2f54295d680f45308e473a23ea53c215c6533d64341f9731a5d173aa1a"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/minkowski/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "5eae589d895c5df485d2744762b12b7b9f55f6002efa40296e7f3aab76040329"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "7d3a7bb52e25ecb2e13a9d54a13e7610bffe23810cf72ac7cd8f46858ecfe6b7"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/minkowski/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "1ae5ffee216d70d0984c24933afb6fd4280e213d995bb82f415d961d373e5b42"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "936576ef60d72f70c541d8bd80aa694d039d82ce8b9b54327d9380cd05e6bb99"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "81c607f343e1fdc28f078dca904d672a62878336b8942bd3aef3b4f7a81f4601"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              3
+            ],
+            "sha256": "a7b203a9977fef759c58c5e344cb53bf39039a6d4f329ea23d960c6492e17d69"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "0c8af6861de7c0be97b54a93212ad31d983b61f29ee0a01f11180c7312674dc9"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              180
+            ],
+            "sha256": "a470389dfaa1eef3032052d6aa4e1079016a4d1c67949d8116558c4c5297b196"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "16ec9529133ed397941e4000882b0caaaa7804e79dc22055767a3873532cf1df"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "9064b298ab431f90d8f2e9fd6f533d18041fc745ba62ed25a510da77d4ce17f1"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/minkowski/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "31a1f1f5afe03354aec95f05ec49a1213036abcaf310d0f4d05eb23d80982629"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "0c8af6861de7c0be97b54a93212ad31d983b61f29ee0a01f11180c7312674dc9"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/minkowski/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "2eab6a7398e150381703939185d87f710da638147024343c18eaf04b7f0880af"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "89a28225fd2dc65b07639df6a1026bfc7f40e8a154100d228c39dac99d824e7a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "76f175d9062ba415d7e72aa97121098e927283e5fde033d456071ea306f7b31e"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              3
+            ],
+            "sha256": "abb869aaf2c2cbfc56fcf18b69447850f13ea5d668e743369f8e8c32e8d9f4b1"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "f8ecb0f61e9d9ab81f0f1ad9d1fe329a8c2f8aae3e3bb88d0492c70ff146e214"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              180
+            ],
+            "sha256": "4c8a9f658953920155ac6bf95500b6a94213b2f654829ec4954dee3016eac754"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "f818271aa1e89a2839839537693e535808598e1965c4626fd074ef568c656931"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "4d357c2f54295d680f45308e473a23ea53c215c6533d64341f9731a5d173aa1a"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/minkowski/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "7ad759a9866c0e8cd6bf71574537822a3086c193daecdc32be8b3d6d0bf5f300"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "c16ac551e9cbf0ed7d5b44ccf286a9b39d8bc38490326176e24d6e50daee2a21"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/minkowski/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "ba345cdd6e55daff2f1d405c4f8ca28a279f8567a9c6484304e72b47f3481e45"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "89a28225fd2dc65b07639df6a1026bfc7f40e8a154100d228c39dac99d824e7a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "79ec93302e99bd4ea4ff7240e852868d74cf6cfd628f34957c0b0b2645639988"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              3
+            ],
+            "sha256": "ed2b2532b24cabc4ecf852d47bc1120387ca29ee013c21bdbd1fe4ff9cb8534a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "8a725d04a87d763b58376d0f555c4df2e6399df4a3f705582ad667c899702a53"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              180
+            ],
+            "sha256": "2709885981fe208e6dae81e5bde41194c011d8f7d5a4910143a9c8504ae285bf"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              178
+            ],
+            "sha256": "f818271aa1e89a2839839537693e535808598e1965c4626fd074ef568c656931"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "4d357c2f54295d680f45308e473a23ea53c215c6533d64341f9731a5d173aa1a"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/minkowski/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              178
+            ],
+            "sha256": "5eae589d895c5df485d2744762b12b7b9f55f6002efa40296e7f3aab76040329"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              177,
+              4
+            ],
+            "sha256": "0c53682b9cb871a414647c5dc56d16d3c525102e0957d29bfb56f2c0f3b355e9"
+          }
+        ],
+        "warnings": []
+      }
+    }
+  },
+  "load_breast_cancer": {
+    "input": {
+      "dtype": "float64",
+      "shape": [
+        569,
+        30
+      ],
+      "sha256": "2d05022a09664922654ffcb11d398f2623746f69b3c0e1cde03bd2f7ad9072e3"
+    },
+    "calls": {
+      "fit/euclidean/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "7beab97f24bc16bc8322a1b4c9ee741d97e7fa23e0af003eecb5192e3c20330d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "63161358e0290a5e735cd098738153bf7fc9c4738ebfc1c3bb1d99ca78427f21"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              0
+            ],
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              3
+            ],
+            "sha256": "fb2cb079e341dc332f351cc3525ff22d50fbb6fc5547c965105afb8ab84177bc"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "b909a7c47c16f14e3220636c5b80db7e2f363c12bb7eb146c85862971f173fd3"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              569
+            ],
+            "sha256": "4bf9f44a187a4d5eb9d2459b9d6d5487ffeab295aeb68480cd887aaa2f511aca"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "9b285c891d79621615ee29ee7e9bab633ebd392fd1cebd1721235dbac48c139c"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/euclidean/best": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "0052516839b94ee314a4e3b398c8036de3790d672194987a394ee60323848539"
+          },
+          {
+            "dtype": "float32",
+            "shape": [
+              40
+            ],
+            "sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "0052516839b94ee314a4e3b398c8036de3790d672194987a394ee60323848539"
+          }
+        ],
+        "warnings": [
+          [
+            "UserWarning",
+            "Clusterer does not have any defined clusters, new data will be automatically predicted as noise."
+          ]
+        ]
+      },
+      "scores/euclidean/best": {
+        "result": {
+          "dtype": "int32",
+          "shape": [
+            40
+          ],
+          "sha256": "34a6fc67125de2a37b2cad81161765866aff5a56dd2e55bf029cc87d2e2a2cde"
+        },
+        "warnings": [
+          [
+            "UserWarning",
+            "Clusterer does not have any defined clusters, new data will be automatically predicted as outliers."
+          ]
+        ]
+      },
+      "robust/euclidean/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "37c4f617536ef3345c7d5124ddf6313e496893a85f79b06c64aa8f2870bd8040"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "db055ed2660b82e5a7d4645b4e703903cb744ecd7a563040328e0b8b05dfa3eb"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/euclidean/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "7beab97f24bc16bc8322a1b4c9ee741d97e7fa23e0af003eecb5192e3c20330d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "63161358e0290a5e735cd098738153bf7fc9c4738ebfc1c3bb1d99ca78427f21"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              0
+            ],
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              3
+            ],
+            "sha256": "1e1f1320c86b3b2437b59a638a3de79a41b9256093649f7a6980a90dddfd663f"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "abb1d396f178c85e3df6418376bc21e1173e2f4aecd718b32d7f9832fd19fed8"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              569
+            ],
+            "sha256": "460050111372e68dd20cfcad65ba12f8c6dc2dded9a438975c59854c985e5348"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "90eb4128a8634efaec480cf57c4765df19552858cc0c7fcaa64037b34a46ca78"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/euclidean/generic": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "0052516839b94ee314a4e3b398c8036de3790d672194987a394ee60323848539"
+          },
+          {
+            "dtype": "float32",
+            "shape": [
+              40
+            ],
+            "sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "0052516839b94ee314a4e3b398c8036de3790d672194987a394ee60323848539"
+          }
+        ],
+        "warnings": [
+          [
+            "UserWarning",
+            "Clusterer does not have any defined clusters, new data will be automatically predicted as noise."
+          ]
+        ]
+      },
+      "scores/euclidean/generic": {
+        "result": {
+          "dtype": "int32",
+          "shape": [
+            40
+          ],
+          "sha256": "34a6fc67125de2a37b2cad81161765866aff5a56dd2e55bf029cc87d2e2a2cde"
+        },
+        "warnings": [
+          [
+            "UserWarning",
+            "Clusterer does not have any defined clusters, new data will be automatically predicted as outliers."
+          ]
+        ]
+      },
+      "robust/euclidean/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "9e1e8c576615d3a18c1836729d4d6b631765cc3a3e7ed0cdf6820bfc28fed697"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "abb1d396f178c85e3df6418376bc21e1173e2f4aecd718b32d7f9832fd19fed8"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/euclidean/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "7beab97f24bc16bc8322a1b4c9ee741d97e7fa23e0af003eecb5192e3c20330d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "63161358e0290a5e735cd098738153bf7fc9c4738ebfc1c3bb1d99ca78427f21"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              0
+            ],
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              3
+            ],
+            "sha256": "1c80d8c634cb3626e66853c22db85a0d1bf29eb8fe1730b0366d70d4882abdfe"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "39532cae00d0f6731919e5fdbac969a38f1acf3d49949bd2354824b11656b56f"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              569
+            ],
+            "sha256": "0976501b4f3b3fcfea3f6e888b4fc70db4a46349ee719b0346226293360f00a6"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "9b285c891d79621615ee29ee7e9bab633ebd392fd1cebd1721235dbac48c139c"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/euclidean/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "0052516839b94ee314a4e3b398c8036de3790d672194987a394ee60323848539"
+          },
+          {
+            "dtype": "float32",
+            "shape": [
+              40
+            ],
+            "sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "0052516839b94ee314a4e3b398c8036de3790d672194987a394ee60323848539"
+          }
+        ],
+        "warnings": [
+          [
+            "UserWarning",
+            "Clusterer does not have any defined clusters, new data will be automatically predicted as noise."
+          ]
+        ]
+      },
+      "scores/euclidean/prims_balltree": {
+        "result": {
+          "dtype": "int32",
+          "shape": [
+            40
+          ],
+          "sha256": "34a6fc67125de2a37b2cad81161765866aff5a56dd2e55bf029cc87d2e2a2cde"
+        },
+        "warnings": [
+          [
+            "UserWarning",
+            "Clusterer does not have any defined clusters, new data will be automatically predicted as outliers."
+          ]
+        ]
+      },
+      "robust/euclidean/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "52329ea34e663dfcb466745f81dfaf8c0b0579bb02d6a95b5b01b38de6e613d6"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "52ccc620dc85cc94a0b0bb7974b8ba8d452c1e6b436e1664aabbafe49c83c476"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/euclidean/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "7beab97f24bc16bc8322a1b4c9ee741d97e7fa23e0af003eecb5192e3c20330d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "63161358e0290a5e735cd098738153bf7fc9c4738ebfc1c3bb1d99ca78427f21"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              0
+            ],
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              3
+            ],
+            "sha256": "fb2cb079e341dc332f351cc3525ff22d50fbb6fc5547c965105afb8ab84177bc"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "b909a7c47c16f14e3220636c5b80db7e2f363c12bb7eb146c85862971f173fd3"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              569
+            ],
+            "sha256": "4bf9f44a187a4d5eb9d2459b9d6d5487ffeab295aeb68480cd887aaa2f511aca"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "9b285c891d79621615ee29ee7e9bab633ebd392fd1cebd1721235dbac48c139c"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/euclidean/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "0052516839b94ee314a4e3b398c8036de3790d672194987a394ee60323848539"
+          },
+          {
+            "dtype": "float32",
+            "shape": [
+              40
+            ],
+            "sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "0052516839b94ee314a4e3b398c8036de3790d672194987a394ee60323848539"
+          }
+        ],
+        "warnings": [
+          [
+            "UserWarning",
+            "Clusterer does not have any defined clusters, new data will be automatically predicted as noise."
+          ]
+        ]
+      },
+      "scores/euclidean/boruvka_balltree": {
+        "result": {
+          "dtype": "int32",
+          "shape": [
+            40
+          ],
+          "sha256": "34a6fc67125de2a37b2cad81161765866aff5a56dd2e55bf029cc87d2e2a2cde"
+        },
+        "warnings": [
+          [
+            "UserWarning",
+            "Clusterer does not have any defined clusters, new data will be automatically predicted as outliers."
+          ]
+        ]
+      },
+      "robust/euclidean/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "37c4f617536ef3345c7d5124ddf6313e496893a85f79b06c64aa8f2870bd8040"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "f77ae4935db6efa033d2f8fdfb307b1bee5e15a0d4386261bd3ce18f3cc3dbca"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/manhattan/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "7beab97f24bc16bc8322a1b4c9ee741d97e7fa23e0af003eecb5192e3c20330d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "63161358e0290a5e735cd098738153bf7fc9c4738ebfc1c3bb1d99ca78427f21"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              0
+            ],
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              3
+            ],
+            "sha256": "62b75bf2a99d7f872e889adc646e22fe276a60e165f4aecf546830eb41601c6e"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "5d4b3040d0718189331e3774bda0058a85390da07f0586d9d04e9be2f943fc96"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              569
+            ],
+            "sha256": "32e5054da79ac70049e7b1bd983d96cd4c79b67c04ee1d9a82427f086cf59e98"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "2a3ee6d0c0327a344d559f444da80a357d248e4c4a40c377b81fafd3fe1f24fb"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/manhattan/best": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "0052516839b94ee314a4e3b398c8036de3790d672194987a394ee60323848539"
+          },
+          {
+            "dtype": "float32",
+            "shape": [
+              40
+            ],
+            "sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "0052516839b94ee314a4e3b398c8036de3790d672194987a394ee60323848539"
+          }
+        ],
+        "warnings": [
+          [
+            "UserWarning",
+            "Clusterer does not have any defined clusters, new data will be automatically predicted as noise."
+          ]
+        ]
+      },
+      "scores/manhattan/best": {
+        "result": {
+          "dtype": "int32",
+          "shape": [
+            40
+          ],
+          "sha256": "34a6fc67125de2a37b2cad81161765866aff5a56dd2e55bf029cc87d2e2a2cde"
+        },
+        "warnings": [
+          [
+            "UserWarning",
+            "Clusterer does not have any defined clusters, new data will be automatically predicted as outliers."
+          ]
+        ]
+      },
+      "robust/manhattan/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "7beab97f24bc16bc8322a1b4c9ee741d97e7fa23e0af003eecb5192e3c20330d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "bc043e4a2da143c76e439be53b0ed003f08bf63446201f2266caa588377a3e08"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/manhattan/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "7beab97f24bc16bc8322a1b4c9ee741d97e7fa23e0af003eecb5192e3c20330d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "63161358e0290a5e735cd098738153bf7fc9c4738ebfc1c3bb1d99ca78427f21"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              0
+            ],
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              3
+            ],
+            "sha256": "e1f15724e5ff472ac61b078e3c65f37444c344ea62169527723daab327464c81"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "5fd8d917bbe6daff75a9931fff7c7330ad069e49f2b00e9ca310a80e5ee68373"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              569
+            ],
+            "sha256": "57a3e911798cc02663a9edd0c5db734e73a5d7a62917a38f429a171f098f3a8d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "2a3ee6d0c0327a344d559f444da80a357d248e4c4a40c377b81fafd3fe1f24fb"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/manhattan/generic": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "0052516839b94ee314a4e3b398c8036de3790d672194987a394ee60323848539"
+          },
+          {
+            "dtype": "float32",
+            "shape": [
+              40
+            ],
+            "sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "0052516839b94ee314a4e3b398c8036de3790d672194987a394ee60323848539"
+          }
+        ],
+        "warnings": [
+          [
+            "UserWarning",
+            "Clusterer does not have any defined clusters, new data will be automatically predicted as noise."
+          ]
+        ]
+      },
+      "scores/manhattan/generic": {
+        "result": {
+          "dtype": "int32",
+          "shape": [
+            40
+          ],
+          "sha256": "34a6fc67125de2a37b2cad81161765866aff5a56dd2e55bf029cc87d2e2a2cde"
+        },
+        "warnings": [
+          [
+            "UserWarning",
+            "Clusterer does not have any defined clusters, new data will be automatically predicted as outliers."
+          ]
+        ]
+      },
+      "robust/manhattan/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "7beab97f24bc16bc8322a1b4c9ee741d97e7fa23e0af003eecb5192e3c20330d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "5fd8d917bbe6daff75a9931fff7c7330ad069e49f2b00e9ca310a80e5ee68373"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/manhattan/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "7beab97f24bc16bc8322a1b4c9ee741d97e7fa23e0af003eecb5192e3c20330d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "63161358e0290a5e735cd098738153bf7fc9c4738ebfc1c3bb1d99ca78427f21"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              0
+            ],
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              3
+            ],
+            "sha256": "e532f0fd6a3540c67fb7a66731c58d845505d2ecd26b1980de7a3df8ee2afbc4"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "5fd8d917bbe6daff75a9931fff7c7330ad069e49f2b00e9ca310a80e5ee68373"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              569
+            ],
+            "sha256": "57a3e911798cc02663a9edd0c5db734e73a5d7a62917a38f429a171f098f3a8d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "2a3ee6d0c0327a344d559f444da80a357d248e4c4a40c377b81fafd3fe1f24fb"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/manhattan/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "0052516839b94ee314a4e3b398c8036de3790d672194987a394ee60323848539"
+          },
+          {
+            "dtype": "float32",
+            "shape": [
+              40
+            ],
+            "sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "0052516839b94ee314a4e3b398c8036de3790d672194987a394ee60323848539"
+          }
+        ],
+        "warnings": [
+          [
+            "UserWarning",
+            "Clusterer does not have any defined clusters, new data will be automatically predicted as noise."
+          ]
+        ]
+      },
+      "scores/manhattan/prims_balltree": {
+        "result": {
+          "dtype": "int32",
+          "shape": [
+            40
+          ],
+          "sha256": "34a6fc67125de2a37b2cad81161765866aff5a56dd2e55bf029cc87d2e2a2cde"
+        },
+        "warnings": [
+          [
+            "UserWarning",
+            "Clusterer does not have any defined clusters, new data will be automatically predicted as outliers."
+          ]
+        ]
+      },
+      "robust/manhattan/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "7beab97f24bc16bc8322a1b4c9ee741d97e7fa23e0af003eecb5192e3c20330d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "b72e29c55ac3366a01e344b2c14fcb40959e335023fe8357c658e712d9a0cbda"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/manhattan/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "7beab97f24bc16bc8322a1b4c9ee741d97e7fa23e0af003eecb5192e3c20330d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "63161358e0290a5e735cd098738153bf7fc9c4738ebfc1c3bb1d99ca78427f21"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              0
+            ],
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              3
+            ],
+            "sha256": "f8c728da6cc6282b3fc0d92375307df34e9c60d914dddf8f00480acf72b14b80"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "5d4b3040d0718189331e3774bda0058a85390da07f0586d9d04e9be2f943fc96"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              569
+            ],
+            "sha256": "32e5054da79ac70049e7b1bd983d96cd4c79b67c04ee1d9a82427f086cf59e98"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "2a3ee6d0c0327a344d559f444da80a357d248e4c4a40c377b81fafd3fe1f24fb"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/manhattan/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "0052516839b94ee314a4e3b398c8036de3790d672194987a394ee60323848539"
+          },
+          {
+            "dtype": "float32",
+            "shape": [
+              40
+            ],
+            "sha256": "b393978842a0fa3d3e1470196f098f473f9678e72463cb65ec4ab5581856c2e4"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "0052516839b94ee314a4e3b398c8036de3790d672194987a394ee60323848539"
+          }
+        ],
+        "warnings": [
+          [
+            "UserWarning",
+            "Clusterer does not have any defined clusters, new data will be automatically predicted as noise."
+          ]
+        ]
+      },
+      "scores/manhattan/boruvka_balltree": {
+        "result": {
+          "dtype": "int32",
+          "shape": [
+            40
+          ],
+          "sha256": "34a6fc67125de2a37b2cad81161765866aff5a56dd2e55bf029cc87d2e2a2cde"
+        },
+        "warnings": [
+          [
+            "UserWarning",
+            "Clusterer does not have any defined clusters, new data will be automatically predicted as outliers."
+          ]
+        ]
+      },
+      "robust/manhattan/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "7beab97f24bc16bc8322a1b4c9ee741d97e7fa23e0af003eecb5192e3c20330d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "e45b7a47c596e2abbc2a6ead476f4868abb3cdfa0a2910c8fca8b850833186a7"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/chebyshev/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "7beab97f24bc16bc8322a1b4c9ee741d97e7fa23e0af003eecb5192e3c20330d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "63161358e0290a5e735cd098738153bf7fc9c4738ebfc1c3bb1d99ca78427f21"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              0
+            ],
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              3
+            ],
+            "sha256": "cedf0fa3537d6d0f98469fdeb078eb4c3617aa94deb13a0934012c5d9d5e82a9"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "108e2e2246fb88d0cd7d0c317169b128b812fd53b82defe5819a3cc664f20c90"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              569
+            ],
+            "sha256": "3f4b6ffae10eea56264b7c7163df4acacdedd1a729a73fbc43d95fea7e108296"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "ce7e390d79e16648b367fd71177703d935889abc032adf62bdfaefdeef671102"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/chebyshev/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "a9f73e9db55d1c6e6f015b9b7dcec56db6f49955a04722fc51aa340bc2549020"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "e9e6ab42b7f42e50310b8540be02a3e50c6f7adc1ad9446724c056dbe133beb2"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/chebyshev/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "7beab97f24bc16bc8322a1b4c9ee741d97e7fa23e0af003eecb5192e3c20330d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "63161358e0290a5e735cd098738153bf7fc9c4738ebfc1c3bb1d99ca78427f21"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              0
+            ],
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              3
+            ],
+            "sha256": "04e8015eaa9422ce5be2b9bb0dc6f812be94e54ba9193761747dfdf3fdd71c7a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "6b5b307aed0d6cc1c906a0f863a23c09e2793d41a28b2a057c5f33bc9d52c346"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              569
+            ],
+            "sha256": "7079583bea9ccbe0dfc3282ac880380e125f5888261a2903e2f050deae9669e3"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "ce7e390d79e16648b367fd71177703d935889abc032adf62bdfaefdeef671102"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/chebyshev/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "338366089b36388594fc2743414d9d190c28dd1f91ebf6262c9f951061a6f3ba"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "6b5b307aed0d6cc1c906a0f863a23c09e2793d41a28b2a057c5f33bc9d52c346"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/chebyshev/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "7beab97f24bc16bc8322a1b4c9ee741d97e7fa23e0af003eecb5192e3c20330d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "63161358e0290a5e735cd098738153bf7fc9c4738ebfc1c3bb1d99ca78427f21"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              0
+            ],
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              3
+            ],
+            "sha256": "cec362169bf780976f016ee8859e05ec1ccc05cc71b4826e72c9b595fe500e6d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "6b5b307aed0d6cc1c906a0f863a23c09e2793d41a28b2a057c5f33bc9d52c346"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              569
+            ],
+            "sha256": "7079583bea9ccbe0dfc3282ac880380e125f5888261a2903e2f050deae9669e3"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "ce7e390d79e16648b367fd71177703d935889abc032adf62bdfaefdeef671102"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/chebyshev/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "675f0931d9ba286104e00dc15c19f71349d74319f57e10ded59cfc49ded1f79e"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "deb836af948555681cce14a8c6cfd53fedfed2bc1239797c2b99f2f580d0fd61"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/chebyshev/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "7beab97f24bc16bc8322a1b4c9ee741d97e7fa23e0af003eecb5192e3c20330d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "63161358e0290a5e735cd098738153bf7fc9c4738ebfc1c3bb1d99ca78427f21"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              0
+            ],
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              3
+            ],
+            "sha256": "cedf0fa3537d6d0f98469fdeb078eb4c3617aa94deb13a0934012c5d9d5e82a9"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "108e2e2246fb88d0cd7d0c317169b128b812fd53b82defe5819a3cc664f20c90"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              569
+            ],
+            "sha256": "3f4b6ffae10eea56264b7c7163df4acacdedd1a729a73fbc43d95fea7e108296"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "ce7e390d79e16648b367fd71177703d935889abc032adf62bdfaefdeef671102"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/chebyshev/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "a9f73e9db55d1c6e6f015b9b7dcec56db6f49955a04722fc51aa340bc2549020"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "fda37060a7ffe1d5ca02286c371f53c8b7e9fc35d2bd8be4f0aa03082a95c96f"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/minkowski/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "7beab97f24bc16bc8322a1b4c9ee741d97e7fa23e0af003eecb5192e3c20330d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "63161358e0290a5e735cd098738153bf7fc9c4738ebfc1c3bb1d99ca78427f21"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              0
+            ],
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              3
+            ],
+            "sha256": "fb2cb079e341dc332f351cc3525ff22d50fbb6fc5547c965105afb8ab84177bc"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "b909a7c47c16f14e3220636c5b80db7e2f363c12bb7eb146c85862971f173fd3"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              569
+            ],
+            "sha256": "4bf9f44a187a4d5eb9d2459b9d6d5487ffeab295aeb68480cd887aaa2f511aca"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "9b285c891d79621615ee29ee7e9bab633ebd392fd1cebd1721235dbac48c139c"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/minkowski/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "275ddb3093487c705cbc4a6dd42b83d7f1989e792a9e86cc3c65cc534c42060d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "5bd3a927e9acc987eb497a07d239d4427319144b9207a3a82fbeb3b0361bf306"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/minkowski/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "7beab97f24bc16bc8322a1b4c9ee741d97e7fa23e0af003eecb5192e3c20330d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "63161358e0290a5e735cd098738153bf7fc9c4738ebfc1c3bb1d99ca78427f21"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              0
+            ],
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              3
+            ],
+            "sha256": "edaa6d3f343d6a92c0dabee26107ff67fc2ff10c82153c982de9a5d9a4888343"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "88ca9b1ec5277594a2ac4ec7ffecf4bf14dc667ad44e144f4667c07060125bba"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              569
+            ],
+            "sha256": "63a79731bfe34b586f043fa2c9359aac1f115fc0f7962c8eddba9743d8c69d77"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "202ee0fa4dc9342fc20b7981321c64806558d4e0164d64826b461bf9b3c66703"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/minkowski/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "268321e3753826d66fa3de01fc2897320603a9a6200f58cb82de8cab43e02fce"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "88ca9b1ec5277594a2ac4ec7ffecf4bf14dc667ad44e144f4667c07060125bba"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/minkowski/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "7beab97f24bc16bc8322a1b4c9ee741d97e7fa23e0af003eecb5192e3c20330d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "63161358e0290a5e735cd098738153bf7fc9c4738ebfc1c3bb1d99ca78427f21"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              0
+            ],
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              3
+            ],
+            "sha256": "1c80d8c634cb3626e66853c22db85a0d1bf29eb8fe1730b0366d70d4882abdfe"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "39532cae00d0f6731919e5fdbac969a38f1acf3d49949bd2354824b11656b56f"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              569
+            ],
+            "sha256": "0976501b4f3b3fcfea3f6e888b4fc70db4a46349ee719b0346226293360f00a6"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "9b285c891d79621615ee29ee7e9bab633ebd392fd1cebd1721235dbac48c139c"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/minkowski/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "0e4a4b1e45d5c653beac825905292e43d713c4e3fbb34cfaa3d8488af19609b4"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "c83e89a8b54f94886ab48b19a60b684ef4a2fd97b76d9c860c26e30bdbe0dbce"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/minkowski/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "7beab97f24bc16bc8322a1b4c9ee741d97e7fa23e0af003eecb5192e3c20330d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "63161358e0290a5e735cd098738153bf7fc9c4738ebfc1c3bb1d99ca78427f21"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              0
+            ],
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              3
+            ],
+            "sha256": "fb2cb079e341dc332f351cc3525ff22d50fbb6fc5547c965105afb8ab84177bc"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "b909a7c47c16f14e3220636c5b80db7e2f363c12bb7eb146c85862971f173fd3"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              569
+            ],
+            "sha256": "4bf9f44a187a4d5eb9d2459b9d6d5487ffeab295aeb68480cd887aaa2f511aca"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              569
+            ],
+            "sha256": "9b285c891d79621615ee29ee7e9bab633ebd392fd1cebd1721235dbac48c139c"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+          }
+        ],
+        "warnings": []
+      },
+      "robust/minkowski/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              569
+            ],
+            "sha256": "275ddb3093487c705cbc4a6dd42b83d7f1989e792a9e86cc3c65cc534c42060d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              568,
+              4
+            ],
+            "sha256": "ac037eb98d710b13834d521af760d39b839e31112fc01c13d7adad42253912fd"
+          }
+        ],
+        "warnings": []
+      }
+    }
+  },
+  "load_digits": {
+    "input": {
+      "dtype": "float64",
+      "shape": [
+        1797,
+        64
+      ],
+      "sha256": "dddd7515d18f8dfd1b0dff6b52dd0e469a7ebf6c872b4b994bbcbc7452d80829"
+    },
+    "calls": {
+      "fit/euclidean/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              1797
+            ],
+            "sha256": "4a4c400431abc06da6d1a20953760b3bec8f3ca8011662a730ec09653ea754d2"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "9f13de22edddcae72cd41bef99df184e8d7ccbfb8273dcc941814da30a5b8cac"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              9
+            ],
+            "sha256": "a82d335953c25dcf75191c14db36d7b90d35aac1377f6a81c611c24932c0090d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              3
+            ],
+            "sha256": "c178aecb9fd4f50505a64e51b2dae1d5c18cd33873a6b4800d0cb4a62f441b7f"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              4
+            ],
+            "sha256": "5d0d0c04cec8745dfc56c80a7fd3d58570273d6268354466fe46c286c2dd3884"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              1819
+            ],
+            "sha256": "57a499ebd955580c83a411bc1dd659e906108749446de1a1eaa2c294a182ac62"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "35ec0b3ed46e600351e8df7dc70b7087ad302246b1a71ba64c5fd07201dfd9da"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "dc07fe20bcba8489ff789e1a27b5b26854c228df35b8c757f847e260e35473f7"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/euclidean/best": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "1296fda1a6d514511a9f654864cdfbb9cdfdc581386a3b5d2f1cbfa5a1d12faa"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "a739e38477533aca84435c695852138320d16d6afc6ace08215032b20a18b90e"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/euclidean/best": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "c429319deca8539593ab8b12e6f3fccc5617a7601a90058049f159a804b64ed8"
+        },
+        "warnings": []
+      },
+      "fit/euclidean/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              1797
+            ],
+            "sha256": "4a4c400431abc06da6d1a20953760b3bec8f3ca8011662a730ec09653ea754d2"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "5e19fb628bd75ab3b52c6d99e817905c544d1932471a9e1d61bedaf3f8a1335e"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              9
+            ],
+            "sha256": "2b7c2d6db9a635b2d5d93637a8a0fe76084f1855e84e4d0ae1e7557c0de5d7b9"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              3
+            ],
+            "sha256": "d327736b76bb84767df4b6247492dc1ac76cc58076a20f23ec225a760a5bffa7"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              4
+            ],
+            "sha256": "05e6968e3ec82f710a54c7d7ec81f9a0f24a155d9bcb0ad90a27ab3ca81f0117"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              1819
+            ],
+            "sha256": "5de2f508a0b67d33bff98095aa094c5e8c2d442d7b1c4fde7167c90f9d1b2b46"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "6b16375c4fb8bbd46687d7e0ce74c9124d7cad678c4f4576475c2221f756164b"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "734c2ccfedbeae7bf17213da709b9c5729a40e79e691f5dd2973c5393c4a64a1"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/euclidean/generic": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "1296fda1a6d514511a9f654864cdfbb9cdfdc581386a3b5d2f1cbfa5a1d12faa"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "4af4ade4e0580a880c12bd14731861d475172db9c49f382f7c8fc26bcab5abbd"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/euclidean/generic": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "a740d9c9526030d184e6dc63310d977dd93076e6ea95a44eca7d5ea7865a21f4"
+        },
+        "warnings": []
+      },
+      "fit/euclidean/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              1797
+            ],
+            "sha256": "4a4c400431abc06da6d1a20953760b3bec8f3ca8011662a730ec09653ea754d2"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "9f13de22edddcae72cd41bef99df184e8d7ccbfb8273dcc941814da30a5b8cac"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              9
+            ],
+            "sha256": "a82d335953c25dcf75191c14db36d7b90d35aac1377f6a81c611c24932c0090d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              3
+            ],
+            "sha256": "c178aecb9fd4f50505a64e51b2dae1d5c18cd33873a6b4800d0cb4a62f441b7f"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              4
+            ],
+            "sha256": "5d0d0c04cec8745dfc56c80a7fd3d58570273d6268354466fe46c286c2dd3884"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              1819
+            ],
+            "sha256": "57a499ebd955580c83a411bc1dd659e906108749446de1a1eaa2c294a182ac62"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "35ec0b3ed46e600351e8df7dc70b7087ad302246b1a71ba64c5fd07201dfd9da"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "dc07fe20bcba8489ff789e1a27b5b26854c228df35b8c757f847e260e35473f7"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/euclidean/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "1296fda1a6d514511a9f654864cdfbb9cdfdc581386a3b5d2f1cbfa5a1d12faa"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "a739e38477533aca84435c695852138320d16d6afc6ace08215032b20a18b90e"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/euclidean/prims_balltree": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "c429319deca8539593ab8b12e6f3fccc5617a7601a90058049f159a804b64ed8"
+        },
+        "warnings": []
+      },
+      "fit/euclidean/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              1797
+            ],
+            "sha256": "fec66087bcb5a8db48bcb34fd496bf332004805948e43fb7cbd29a346240214e"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "cd3505d4736eb7e30ebc1af9ec7aff6121cd78cef0ae8e6196dc81f4653c2a54"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              9
+            ],
+            "sha256": "762c5af47e27114414819f14cda975e763c52db2fe7ce90f6c6da15731333481"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              3
+            ],
+            "sha256": "18314c5c51d18b68ab36e9ced1f3f8ddaf6f5e319cd820d165f8b008a912ea1a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              4
+            ],
+            "sha256": "134185c424ddd7e682e9e16e45196843f8c715e878935d42d38f5799dcb39056"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              1821
+            ],
+            "sha256": "c27994f52e03476153758ec57ad286d85438c3aeb8e2469ca8013869fc63350b"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "08ef17e3b0f4213231590407ad7fab4433cac9f63fd8b615226e5042197ac072"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "f99981f0dec8b15c42ee8c029944625bc65357607f9f3e079c13fb0047aebca0"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/euclidean/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "1296fda1a6d514511a9f654864cdfbb9cdfdc581386a3b5d2f1cbfa5a1d12faa"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "b65ec3cdff8207cdbc418e027f12e827686b9ff8c16c1560442dba6f65d2c0da"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/euclidean/boruvka_balltree": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "58b73ccc54d49b3cbc8816070e8c9dc9e971d611ca5d9274829df83118eb5738"
+        },
+        "warnings": []
+      },
+      "fit/manhattan/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              1797
+            ],
+            "sha256": "cf5739888360915082b5fb0458e3e7b7ebc8e515fb8fd955afcee8bc45810204"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "9c93c1e7255b2fc67cfd95a3a3fe9d127095bdd29762aff7b31bdaeb7f0a1173"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "358cfad7d36beabda3b11b57f463d2a751d6bb9ae7232254bba2c460913161b6"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              3
+            ],
+            "sha256": "f6122a78ae91549472de4a887f2d81210177851155e65c03fdbb1eb1e1c97ea2"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              4
+            ],
+            "sha256": "d31a5b3180bdcee7f44457006ae3f05d808c7125624f79c6a372a40c054d69da"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              1823
+            ],
+            "sha256": "557bbdb293b24719f3baecdbff05f615320fc6d2fe3234e032e3102b0ffa54fa"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "66bdfffd6ba815d30132ef0b46d19ca83c9fde7728245e96ce398f9c2c9ea93c"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "aca4140b93d495fe6eec5a437f937354750d10e109eb06acf415258dd22671bd"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/manhattan/best": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "2a2fb45f1b4dce4e3707ea01069a5306f1bbf3c4ce96fed465e107b58d7b7098"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "0fe4b25b7be260fbf237ad950e3a7c65de4180b77aedd39f82aa4fad6f4bea84"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/manhattan/best": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "c7031965a871a87d61095d5014febb42ea5e5f94bfdc6ade43d644ecd2ef26aa"
+        },
+        "warnings": []
+      },
+      "fit/manhattan/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              1797
+            ],
+            "sha256": "cf5739888360915082b5fb0458e3e7b7ebc8e515fb8fd955afcee8bc45810204"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "9c93c1e7255b2fc67cfd95a3a3fe9d127095bdd29762aff7b31bdaeb7f0a1173"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "358cfad7d36beabda3b11b57f463d2a751d6bb9ae7232254bba2c460913161b6"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              3
+            ],
+            "sha256": "4c83ff20817e7e55acb6fd47f5dcf961ce4579f98673b6b9ff3cfd712317ce3a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              4
+            ],
+            "sha256": "d31a5b3180bdcee7f44457006ae3f05d808c7125624f79c6a372a40c054d69da"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              1823
+            ],
+            "sha256": "557bbdb293b24719f3baecdbff05f615320fc6d2fe3234e032e3102b0ffa54fa"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "66bdfffd6ba815d30132ef0b46d19ca83c9fde7728245e96ce398f9c2c9ea93c"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "aca4140b93d495fe6eec5a437f937354750d10e109eb06acf415258dd22671bd"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/manhattan/generic": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "2a2fb45f1b4dce4e3707ea01069a5306f1bbf3c4ce96fed465e107b58d7b7098"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "0fe4b25b7be260fbf237ad950e3a7c65de4180b77aedd39f82aa4fad6f4bea84"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/manhattan/generic": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "c7031965a871a87d61095d5014febb42ea5e5f94bfdc6ade43d644ecd2ef26aa"
+        },
+        "warnings": []
+      },
+      "fit/manhattan/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              1797
+            ],
+            "sha256": "cf5739888360915082b5fb0458e3e7b7ebc8e515fb8fd955afcee8bc45810204"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "9c93c1e7255b2fc67cfd95a3a3fe9d127095bdd29762aff7b31bdaeb7f0a1173"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "358cfad7d36beabda3b11b57f463d2a751d6bb9ae7232254bba2c460913161b6"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              3
+            ],
+            "sha256": "f6122a78ae91549472de4a887f2d81210177851155e65c03fdbb1eb1e1c97ea2"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              4
+            ],
+            "sha256": "d31a5b3180bdcee7f44457006ae3f05d808c7125624f79c6a372a40c054d69da"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              1823
+            ],
+            "sha256": "557bbdb293b24719f3baecdbff05f615320fc6d2fe3234e032e3102b0ffa54fa"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "66bdfffd6ba815d30132ef0b46d19ca83c9fde7728245e96ce398f9c2c9ea93c"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "aca4140b93d495fe6eec5a437f937354750d10e109eb06acf415258dd22671bd"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/manhattan/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "2a2fb45f1b4dce4e3707ea01069a5306f1bbf3c4ce96fed465e107b58d7b7098"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "0fe4b25b7be260fbf237ad950e3a7c65de4180b77aedd39f82aa4fad6f4bea84"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/manhattan/prims_balltree": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "c7031965a871a87d61095d5014febb42ea5e5f94bfdc6ade43d644ecd2ef26aa"
+        },
+        "warnings": []
+      },
+      "fit/manhattan/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              1797
+            ],
+            "sha256": "67e687a46ea42cecaf0b3fd215effa78857ff5bd276f44a65d9da0d6ed7bf904"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "1635ac9ce010fd30b31775accd1407ac4da030fa789a77dd83869af9526140d9"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "d66a0407a8960144c3f753aac9114fa6c80098fa2b60e04ef08dc125c5b4be94"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              3
+            ],
+            "sha256": "88b236f56fd6f1d447fdc1115a0bf47ce92de846705568700ed19feb09caa3c5"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              4
+            ],
+            "sha256": "c04020b945e59ee617e9e97a4ff0a777126ab7c04f6cc783b58ed047abe4ab4d"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              1823
+            ],
+            "sha256": "87f42fbdf6bdca7ca0da2e3ed1273753aea6fbb5437de38e1229df20c6fb641f"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "20dc64d9bc8fbf9943402310f58e156bc1cee7e35d36a7b98f4a40e1d94dcad7"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "9ec6108623ea22607fda95ea4d0f2766acde729514c171ea97ffa9e91e944d25"
+          }
+        ],
+        "warnings": []
+      },
+      "predict/manhattan/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "38b9e52420eaae31ac5c44eb29306943675299fac342d4e1fb21c859f67c3abd"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              40
+            ],
+            "sha256": "0fe4b25b7be260fbf237ad950e3a7c65de4180b77aedd39f82aa4fad6f4bea84"
+          },
+          {
+            "dtype": "int32",
+            "shape": [
+              40
+            ],
+            "sha256": "11c971161d650650a9fb22fe9d403b1547a67855e266a350a55451378323a672"
+          }
+        ],
+        "warnings": []
+      },
+      "scores/manhattan/boruvka_balltree": {
+        "result": {
+          "dtype": "float64",
+          "shape": [
+            40
+          ],
+          "sha256": "c7031965a871a87d61095d5014febb42ea5e5f94bfdc6ade43d644ecd2ef26aa"
+        },
+        "warnings": []
+      },
+      "fit/chebyshev/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              1797
+            ],
+            "sha256": "3253ac8842275985b3a460f9122a83f24f0764afa696cb08de8e52d2ae3696ce"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "b59407c7488e28b45c3314378255d64e11e9d9b29702b67f505db5b165c4f845"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "6fa4f017613ca1534cc6c214e8244ba47ea880c0415c3a302f2ab5f2ce57691f"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              3
+            ],
+            "sha256": "b99f2570071918db3d030739b09736d2f9a2201ea4fd079fe78f2d7f4e9d042d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              4
+            ],
+            "sha256": "a1c871e7bd14a7d278f7f27ea978df54b3d6354b00067225b0512decf6b9c3fd"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              1825
+            ],
+            "sha256": "7b8aee01e845ffec00e626f7c35dc5a08820d39cec00c7655dbaf02cfef5b1cf"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "959fa8d939216453fb4c0f2f6ff626f6bcb509677e272b5c261ffbad52e08d5c"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/chebyshev/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              1797
+            ],
+            "sha256": "3253ac8842275985b3a460f9122a83f24f0764afa696cb08de8e52d2ae3696ce"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "b59407c7488e28b45c3314378255d64e11e9d9b29702b67f505db5b165c4f845"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "6fa4f017613ca1534cc6c214e8244ba47ea880c0415c3a302f2ab5f2ce57691f"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              3
+            ],
+            "sha256": "873e0ea9bf758809f543b9d9f2aa1541a26acb81e1fa33b8fa40ede9fec8e9d0"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              4
+            ],
+            "sha256": "a1c871e7bd14a7d278f7f27ea978df54b3d6354b00067225b0512decf6b9c3fd"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              1825
+            ],
+            "sha256": "7b8aee01e845ffec00e626f7c35dc5a08820d39cec00c7655dbaf02cfef5b1cf"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "959fa8d939216453fb4c0f2f6ff626f6bcb509677e272b5c261ffbad52e08d5c"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/chebyshev/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              1797
+            ],
+            "sha256": "3253ac8842275985b3a460f9122a83f24f0764afa696cb08de8e52d2ae3696ce"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "b59407c7488e28b45c3314378255d64e11e9d9b29702b67f505db5b165c4f845"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "6fa4f017613ca1534cc6c214e8244ba47ea880c0415c3a302f2ab5f2ce57691f"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              3
+            ],
+            "sha256": "b99f2570071918db3d030739b09736d2f9a2201ea4fd079fe78f2d7f4e9d042d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              4
+            ],
+            "sha256": "a1c871e7bd14a7d278f7f27ea978df54b3d6354b00067225b0512decf6b9c3fd"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              1825
+            ],
+            "sha256": "7b8aee01e845ffec00e626f7c35dc5a08820d39cec00c7655dbaf02cfef5b1cf"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "959fa8d939216453fb4c0f2f6ff626f6bcb509677e272b5c261ffbad52e08d5c"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/chebyshev/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              1797
+            ],
+            "sha256": "1df4ef81d346aa4ccd5b6a8c31e476e2d2d442daec614977166db1fdcbf3a0f9"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "857d64b8b5ecb21f8440999b830784813188df29d7e40cd4e7dd5ec4f44ec397"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "e1638b515619a9258c02f3acf24d3e3d9a70c93d606b23f38ff60379b10cfd34"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              3
+            ],
+            "sha256": "51edd5f06f5fd03dc141e781156a6d2204d60c2c71b2b2bcf40502b7aa648a7f"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              4
+            ],
+            "sha256": "3ebe9c52d81a42f80c1e146945badfb96bef7cd4fbe0017e033b6f25f0b3d325"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              1825
+            ],
+            "sha256": "5ec44e56c03c87634d7ea44a24c1eae23143b6760614d3d6b94859af16fcd0e5"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "9347ddab2dc0058362fe1e45edbc51e4f5e3ac9c401d9661005e7702d7b661c0"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "1004f68580828d50010088c768ebe2c26a2e7af55c970ef1f9a4a599c86f02c4"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/minkowski/best": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              1797
+            ],
+            "sha256": "4a4c400431abc06da6d1a20953760b3bec8f3ca8011662a730ec09653ea754d2"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "9f13de22edddcae72cd41bef99df184e8d7ccbfb8273dcc941814da30a5b8cac"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              9
+            ],
+            "sha256": "a82d335953c25dcf75191c14db36d7b90d35aac1377f6a81c611c24932c0090d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              3
+            ],
+            "sha256": "c178aecb9fd4f50505a64e51b2dae1d5c18cd33873a6b4800d0cb4a62f441b7f"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              4
+            ],
+            "sha256": "5d0d0c04cec8745dfc56c80a7fd3d58570273d6268354466fe46c286c2dd3884"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              1819
+            ],
+            "sha256": "57a499ebd955580c83a411bc1dd659e906108749446de1a1eaa2c294a182ac62"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "35ec0b3ed46e600351e8df7dc70b7087ad302246b1a71ba64c5fd07201dfd9da"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "dc07fe20bcba8489ff789e1a27b5b26854c228df35b8c757f847e260e35473f7"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/minkowski/generic": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              1797
+            ],
+            "sha256": "fdc68aa74d78c49cc452ca9e1a4aab45f9f1ef9cc5c78ceaa7b2fd4f7e968eaa"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "8d5f504f4a1548caec74cfd88238241b4a0bb665b4476ac336ceb086e8d7f381"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              2
+            ],
+            "sha256": "fd87d16362e8c6ec1cb8386d8225c924e9d9a67670722da493ce7a3fad6203a4"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              3
+            ],
+            "sha256": "7673a0f33ee3acaa02de56f744ea5d30eafae3f830bde51a558f0692735363c8"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              4
+            ],
+            "sha256": "12df2738b665b749fd30b80509b98928180f696ef081f144d461262639bcd359"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              1823
+            ],
+            "sha256": "0f1d82e4c6522c249137a7fa19e539da37b4e24bbc39eb60762d0468e5875eb2"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "cbc545bbe1027139dae86c5347b7bc3a49a4482b3778ec8dddf7b26de8743e5b"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "0c4cdd0156cd7480997d3b93aa022db913f493c45ce55c5296871081a080723d"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/minkowski/prims_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              1797
+            ],
+            "sha256": "4a4c400431abc06da6d1a20953760b3bec8f3ca8011662a730ec09653ea754d2"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "9f13de22edddcae72cd41bef99df184e8d7ccbfb8273dcc941814da30a5b8cac"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              9
+            ],
+            "sha256": "a82d335953c25dcf75191c14db36d7b90d35aac1377f6a81c611c24932c0090d"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              3
+            ],
+            "sha256": "c178aecb9fd4f50505a64e51b2dae1d5c18cd33873a6b4800d0cb4a62f441b7f"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              4
+            ],
+            "sha256": "5d0d0c04cec8745dfc56c80a7fd3d58570273d6268354466fe46c286c2dd3884"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              1819
+            ],
+            "sha256": "57a499ebd955580c83a411bc1dd659e906108749446de1a1eaa2c294a182ac62"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "35ec0b3ed46e600351e8df7dc70b7087ad302246b1a71ba64c5fd07201dfd9da"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "dc07fe20bcba8489ff789e1a27b5b26854c228df35b8c757f847e260e35473f7"
+          }
+        ],
+        "warnings": []
+      },
+      "fit/minkowski/boruvka_balltree": {
+        "result": [
+          {
+            "dtype": "int64",
+            "shape": [
+              1797
+            ],
+            "sha256": "fec66087bcb5a8db48bcb34fd496bf332004805948e43fb7cbd29a346240214e"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "cd3505d4736eb7e30ebc1af9ec7aff6121cd78cef0ae8e6196dc81f4653c2a54"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              9
+            ],
+            "sha256": "762c5af47e27114414819f14cda975e763c52db2fe7ce90f6c6da15731333481"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              3
+            ],
+            "sha256": "18314c5c51d18b68ab36e9ced1f3f8ddaf6f5e319cd820d165f8b008a912ea1a"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1796,
+              4
+            ],
+            "sha256": "134185c424ddd7e682e9e16e45196843f8c715e878935d42d38f5799dcb39056"
+          },
+          {
+            "dtype": [
+              [
+                "parent",
+                "<i8"
+              ],
+              [
+                "child",
+                "<i8"
+              ],
+              [
+                "lambda_val",
+                "<f8"
+              ],
+              [
+                "child_size",
+                "<i8"
+              ]
+            ],
+            "shape": [
+              1821
+            ],
+            "sha256": "c27994f52e03476153758ec57ad286d85438c3aeb8e2469ca8013869fc63350b"
+          },
+          {
+            "dtype": "float64",
+            "shape": [
+              1797
+            ],
+            "sha256": "08ef17e3b0f4213231590407ad7fab4433cac9f63fd8b615226e5042197ac072"
+          },
+          {
+            "dtype": "float64",
+            "shape": [],
+            "sha256": "f99981f0dec8b15c42ee8c029944625bc65357607f9f3e079c13fb0047aebca0"
+          }
+        ],
+        "warnings": []
+      }
+    }
+  }
+}
